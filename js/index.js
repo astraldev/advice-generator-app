@@ -29,7 +29,7 @@ if (window) {
     let quote_text = quote.slip.advice;
     quote_el.innerText = `"${quote_text}"`
     let id = quote.slip.id;
-    quote_id.innerText = `Quote #${id}`
+    quote_id.innerText = `Advice #${id}`
   }
   function updateQuote(){
     fetch(url)

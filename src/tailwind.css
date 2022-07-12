@@ -13,7 +13,7 @@
 }
 .quote-box {
   transition: all 300ms 0 ease-out;
-  @apply py-8 gap-y-5 md:gap-y-8 md:px-6 w-[350px] md:w-[520px] px-4 items-center flex flex-col bg-dark-grayish-blue rounded-xl justify-around relative;
+  @apply py-8 md:py-12 gap-y-5 md:gap-y-8 md:px-6 w-[350px] md:w-[520px] px-4 items-center flex flex-col bg-dark-grayish-blue rounded-xl justify-around relative;
 }
 button.ico-dice{
   @apply h-14 w-14 absolute bottom-6 rounded-full translate-y-full grid place-items-center bg-neon-green;
