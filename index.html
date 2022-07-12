@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/tailwind.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-dark-blue grid font-bold place-items-center">
+  <div class="quote-box">
+    <span id="quote-id" class="text-neon-green text-xs uppercase">Quote #101</span>
+    <h1 id="quote-text" class="text-lg text-center md:text-[28px] px-2 md:px-4 text-light-cyan"></h1>
+    <div class="divider ico ico-divider-sm mb-4 md:mb-6 md:hidden block"></div>
+    <div class="divider ico ico-divider-lg mb-4 md:mb-6 hidden md:block"></div>
+    <button onclick="updateQuote()" class="ico ico-dice"></button>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>

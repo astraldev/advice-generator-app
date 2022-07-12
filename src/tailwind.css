@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind utilities;
+/* Custom components here */
+
+@tailwind components;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+*{
+  font-family: 'Manrope', sans-serif;
+}
+#quote-id{
+  letter-spacing: 3px;
+}
+.quote-box {
+  transition: all 300ms 0 ease-out;
+  @apply py-8 gap-y-5 md:gap-y-8 md:px-6 w-[350px] md:w-[520px] px-4 items-center flex flex-col bg-dark-grayish-blue rounded-xl justify-around relative;
+}
+button.ico-dice{
+  @apply h-14 w-14 absolute bottom-6 rounded-full translate-y-full grid place-items-center bg-neon-green;
+}
+
+button.ico-dice:hover{
+  box-shadow: 0 0 25px 2px hsl(150, 100%, 66%);
+}
